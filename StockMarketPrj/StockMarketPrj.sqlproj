@@ -62,16 +62,19 @@
     <Folder Include="DW\Tables\" />
     <Folder Include="Security\" />
     <Folder Include="Data" />
+    <Folder Include="DW\Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="DW\Tables\DimDate.sql" />
-    <Build Include="DW\Tables\DimGrps.sql" />
-    <Build Include="DW\Tables\DimTbl.sql" />
     <Build Include="DW\Tables\DimNmds.sql" />
     <Build Include="DW\Tables\FactNmds.sql" />
     <Build Include="Security\DW.sql" />
+    <Build Include="DW\Scripts\Init_OBV.sql" />
+    <Build Include="DW\Tables\FactOBV.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />
+    <None Include="Data\DimDate.csv" />
+    <None Include="Data\DimNmds.csv" />
   </ItemGroup>
 </Project>
