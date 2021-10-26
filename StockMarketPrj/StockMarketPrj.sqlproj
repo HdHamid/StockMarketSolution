@@ -61,6 +61,7 @@
     <Folder Include="DW\" />
     <Folder Include="DW\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Data" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="DW\Tables\DimDate.sql" />
@@ -69,5 +70,8 @@
     <Build Include="DW\Tables\DimNmds.sql" />
     <Build Include="DW\Tables\FactNmds.sql" />
     <Build Include="Security\DW.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\FactNmds.csv" />
   </ItemGroup>
 </Project>
