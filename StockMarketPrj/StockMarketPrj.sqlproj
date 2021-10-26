@@ -71,6 +71,8 @@
     <Build Include="Security\DW.sql" />
     <Build Include="DW\Scripts\Init_OBV.sql" />
     <Build Include="DW\Tables\FactOBV.sql" />
+    <Build Include="DW\Tables\FactRsi.sql" />
+    <Build Include="DW\Scripts\Init_RSI.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />
