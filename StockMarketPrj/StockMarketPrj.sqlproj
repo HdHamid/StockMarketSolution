@@ -73,6 +73,8 @@
     <Build Include="DW\Tables\FactOBV.sql" />
     <Build Include="DW\Tables\FactRsi.sql" />
     <Build Include="DW\Scripts\Init_RSI.sql" />
+    <Build Include="DW\Scripts\Init_SMA_EMA.sql" />
+    <Build Include="DW\Tables\FactMAvg.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />
