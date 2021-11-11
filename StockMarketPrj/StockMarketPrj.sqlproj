@@ -75,6 +75,11 @@
     <Build Include="DW\Scripts\Init_RSI.sql" />
     <Build Include="DW\Scripts\Init_SMA_EMA.sql" />
     <Build Include="DW\Tables\FactMAvg.sql" />
+    <Build Include="DW\Tables\GtRwsASDte.sql" />
+    <Build Include="DW\Tables\DimTbl.sql" />
+    <Build Include="DW\Tables\DimGrps.sql" />
+    <Build Include="DW\Scripts\InitialFactBeta.sql" />
+    <Build Include="DW\Tables\FactBeta.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />

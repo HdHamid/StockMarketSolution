@@ -1,0 +1,4 @@
+﻿CREATE TABLE [DW].[GtRwsASDte](
+	[ID] [int] NOT NULL PRIMARY KEY,
+	[DteID] [int] NULL
+) ON [PRIMARY]
