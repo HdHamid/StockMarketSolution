@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{1018cfc5-fcfc-4ad6-97b0-aaef4099a574}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -80,6 +80,8 @@
     <Build Include="DW\Tables\DimGrps.sql" />
     <Build Include="DW\Scripts\InitialFactBeta.sql" />
     <Build Include="DW\Tables\FactBeta.sql" />
+    <Build Include="DW\Tables\RegMxMin.sql" />
+    <Build Include="DW\Scripts\Fill_RegMxMin.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />
