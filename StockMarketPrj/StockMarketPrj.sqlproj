@@ -83,6 +83,7 @@
     <Build Include="DW\Tables\RegMxMin.sql" />
     <Build Include="DW\Scripts\Fill_RegMxMin.sql" />
     <Build Include="DW\Scripts\InitIchi.sql" />
+    <Build Include="DW\Tables\FactIchi.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\FactNmds.csv" />
